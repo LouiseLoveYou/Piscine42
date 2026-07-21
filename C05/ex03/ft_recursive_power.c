@@ -6,7 +6,7 @@
 /*   By: ksella <ksella@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/19 08:10:59 by username          #+#    #+#             */
-/*   Updated: 2026/07/19 08:59:55 by ksella           ###   ########.fr       */
+/*   Updated: 2026/07/20 20:56:58 by ksella           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,8 +22,8 @@ int	ft_recursive_power(int nb, int power)
 		return (nb * ft_recursive_power(nb, power - 1));
 }
 
-int	main(void)
-{
-	printf("tung tung tung sahur(%d, %d) = %d\n", 6, 7, ft_recursive_power(6, 7));
-	return (0);
-}
+// int	main(void)
+// {
+// 	printf("%d\n", ft_recursive_power(5, 3));
+// 	return (0);
+// }
